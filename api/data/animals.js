@@ -1,4 +1,3 @@
-// Static data for the assignment. shelterId will become a Foreign Key to shelters.id in MySQL.
 const animals = [
   { id: 1, name: 'לוקי', species: 'כלב', breed: 'מעורב', ageYears: 3, gender: 'זכר', size: 'בינוני', status: 'available', shelterId: 1, featured: true },
   { id: 2, name: 'מיצי', species: 'חתול', breed: 'חתול רחוב', ageYears: 1, gender: 'נקבה', size: 'קטן', status: 'available', shelterId: 1, featured: false },
