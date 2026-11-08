@@ -12,5 +12,4 @@ app.use('/api/shelters', shelterRoutes);
 app.use((req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
-
 app.listen(3000);
